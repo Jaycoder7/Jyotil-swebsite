@@ -239,13 +239,18 @@
                 <!-- form fields -->
                 <form name="contact" method="POST" netlify>
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+      <input type="text" class="form-control form-control-lg" placeholder="Name">
+
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+  <input type="email" class="form-control mt-3" placeholder="Email">
+        
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+   <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
   </p>
   <p>
     <button type="submit">Send</button>
